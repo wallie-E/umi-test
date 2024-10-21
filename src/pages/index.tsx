@@ -9,7 +9,7 @@ export default function IndexPage() {
         const entries = list.getEntriesByName('first-contentful-paint');
         if (entries.length > 0) {
           const fcpEntry = entries[0];
-          console.log('FCP:', fcpEntry.startTime);
+          console.log("FCP:", fcpEntry.startTime);
           // 你可以将 FCP 数据发送到你的后端或分析工具
         }
       });
